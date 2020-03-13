@@ -19,7 +19,6 @@
     "node:version": "echo 'nodejs version: ' && node -v ",
     "profile:local": "cross-env-shell NODE_ENV=local",
     "start": "npm run profile:local \"sls offline start\""
-
   },
   "keywords": [],
   "author": "",
