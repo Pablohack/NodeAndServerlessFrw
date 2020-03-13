@@ -1,0 +1,27 @@
+{
+  "name": "BiceVidaTest2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.638.0",
+    "body-parser": "^1.19.0",
+    "boom": "^7.3.0",
+    "cross-env": "^7.0.2",
+    "method-override": "^3.0.0",
+    "request": "^2.88.2",
+    "serverless-offline": "^5.12.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "clean": "rm -rf package-lock.json .serverless/ && npm install",
+    "node:version": "echo 'nodejs version: ' && node -v ",
+    "profile:local": "cross-env-shell NODE_ENV=local",
+    "start": "npm run profile:local \"sls offline start\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

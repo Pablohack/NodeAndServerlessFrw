@@ -1,0 +1,22 @@
+
+service: bicevidatest2
+
+custom:
+  serverless-offline:
+    port: 3000
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+
+
+functions:
+  polizaFunc:
+    handler: handler.polizaFunc
+    events:
+      - http:
+          path: poliza
+          method: get  
+
+plugins:
+- serverless-offline
