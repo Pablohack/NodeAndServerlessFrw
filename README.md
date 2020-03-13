@@ -16,3 +16,6 @@ Serverless: GET /message
 
 Serverless: Offline listening on http://localhost:3000
 El proyecto quedaría listo para usarse
+
+para ver el resultado de lo solicitado debe en el navegador entrar al enlace http://localhost:3000/poliza
+al ingresar a ese link se ejecutara la logica solicitada.
